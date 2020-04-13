@@ -1,0 +1,33 @@
+{
+  "name": "aula-03",
+  "version": "1.0.0",
+  "description": "Esta aula foi uma introdução a configuração do Babel. Babel é um plugin que modificar o código JavaScript para ser aceito em todos os navegadores.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel ./main.js -o ./bundle.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/biellbatista/javascript_rocketseat/src"
+  },
+  "keywords": [
+    "rocketseat"
+  ],
+  "author": "Gabriel Batista <gabriel.texteis@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.14.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}

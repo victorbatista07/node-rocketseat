@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Intervalo e Timeout</title>
+    </head>
+    <body>
+        <script>
+            // um intervalo dentro de um javascript é alguma função que executa várias vezes dentro de um intervalo
+
+            function exibeAlgo() {
+                console.log('Hello World');
+            }
+            // definindo um intervalo
+            //setInterval(funçãoASerReferenciada, intervalo)
+            // não colo os (), porque ao colocá-los eu executo a função. Sem eles, apenas referencio a mesma e a uso como parâmetro para alguma coisa
+            setInterval(exibeAlgo, 1000);
+
+            //setTimeout(funçãoASerReferenciada, tempoDeEspera)
+            
+            setTimeout(exibeAlgo, 5000);
+
+            /*
+                A diferença entre o setTimeout() e o setInterval() é que o 
+                setTimeout() executa a função uma única vez depois de X segundo
+                setInterval() executa a função várias vezes a cada X segundos
+            */
+        </script>
+    </body>
+</html>

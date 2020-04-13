@@ -1,0 +1,26 @@
+﻿Módulo 01 - Conceitos
+	01 - Introdução
+	02 - Instalando Node & Yarn
+	03 - Configurando Babel
+	04 - Classes
+	05 - Const & Let
+	06 - Operações em Array
+	07 - Arrow Functions
+	08 - Valores padrão
+	09 - Desestruturação
+	10 - Operadores rest/spread
+	11 - Template Literals
+	12 - Object Short Syntax
+Módulo 02 - Webpack Server
+	01 - Configurando Webpack
+	02 - Import/export
+	03 - Webpack dev server
+Módulo 03 - Async/await
+	01 - Async/await
+	02 - Configurando axios
+Módulo 04 - Aplicação com ES6+
+	01 - Estrutura e estilos
+	02 - Adicionar repositórios
+	03 - Render em tela
+	04 - Buscando da API
+	05 - Loading e error

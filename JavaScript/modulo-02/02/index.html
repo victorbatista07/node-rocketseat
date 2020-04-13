@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Trabalhando com a DOM</title>
+    </head>
+    <body>
+        <div id="app">
+            <input type="text" name="nome" id="nome" class="nome" />
+            <button class="botao">Adicionar</button>
+        </div>
+        <script>
+            // buscando o elemento pelo Id. Um elemento, porque o ID é único
+            var inputElement = document.getElementById('nome');
+            // buscando o elemento pela tag. Neste caso vem em vetor, porque ele irá pegar TODOS OS ELEMENTOS COM A TAG <INPUT>
+            var inputElement = document.getElementsByTagName('input');
+            // retorna um vetor, porque a class não é única no HTML
+            var inputElement = document.getElementsByClassName('nome');
+            /*
+            document.querySelector() me permite procurar elementos na minha página html
+            eu posso navegar por eles. Ele retorna apenas UM elemento
+            */
+            var inputElement = document.querySelector('nome');
+            // me retorna um array
+            var inputElement = document.querySelectorAll('nome');
+            // procurando UM elemento BUTTON da classe BOTAO
+            // pegando o elemento para realizar as manipulações
+            var btnElement = document.querySelector('button.botao');
+            // pegando um input com o nome "nome"
+            var inputElement = document.querySelector('input[name=nome]');
+
+            // atribuindo uma funcao para o button
+            btnElement.onclick = function() {
+                // pegando o valor do input
+                var text = inputElement.value;
+                alert('Botão clicado');
+            }
+        </script>
+    </body>
+</html>

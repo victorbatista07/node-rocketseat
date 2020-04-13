@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Lidando com Elementos</title>
+    </head>
+    <body>
+        <div id="app">
+            <input id="nome" />
+        </div>
+
+        <script>
+            // criando uma tag de link
+            var linkElement = document.createElement('a');
+            // colocando valor para a tag de link
+            linkElement.setAttribute('href', 'https://www.google.com/');
+            linkElement.setAttribute('title', 'Site do Google');
+
+            var textElemet = document.createTextNode('Acessar site do Google');
+            //colocando o texto ancora
+            linkElement.appendChild(textElemet);
+            // pegando alguma tag com o id app
+            var containerElement = document.querySelector('#app');
+            // adiciondo o elemento de link
+            containerElement.appendChild(linkElement);
+
+            var inputElement = document.querySelector('#nome');
+            // removendo um elemento
+            containerElement.removeChild(inputElement);
+        </script>
+    </body>
+</html>

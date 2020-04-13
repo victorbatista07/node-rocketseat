@@ -1,0 +1,3 @@
+Webpack - Servidor para a gente conseguir o live reload. Ou seja, atualiza automaticamente após a adição de novos código (ES) do javascript
+Rest/spread - Manipular os objetos sem manter referência
+Import/export - Importar e exportar funcionalidades de um script para outro

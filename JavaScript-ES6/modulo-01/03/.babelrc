@@ -1,0 +1,5 @@
+{
+    "presets": ["@babel/preset-env"]
+}
+
+// o presente-env serve para converter o código para a melhor forma possível, porque muitos navegadores não entendem o EcmaScript

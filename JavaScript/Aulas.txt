@@ -1,0 +1,27 @@
+Módulo 01 - Introdução
+    01 - Introdução
+    02 - Configurando ambiente
+    03 - Variáveis e dados
+    04 - Operações matemáticas
+    05 - Funções
+    06 - Condicionais
+    07 - Operadores lógicos
+    08 - Condição ternária
+    09 - Estruturas de repetição
+    10 - Intervalo e timeout
+Módulo 02 - Manipulando a DOM
+    01 - Eventos inline
+    02 - Trabalhando com a DOM
+    03 - Lidando com elementos
+    04 - Alterando estilos
+Módulo 03 - App de Todos
+    01 - Estrutura do app
+    02 - Iniciando aplicação
+    03 - Renderizando todos
+    04 - Criando todos
+    05 - Excluindo todos
+    06 - Salvando no storage
+Módulo 04 - JS Assíncrono
+    01 - Requisições AJAX
+    02 - Promises
+    03 - Utilizando Axios
